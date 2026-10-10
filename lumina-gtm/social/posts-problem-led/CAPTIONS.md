@@ -1,0 +1,154 @@
+# Lumina problem-led social posts
+
+Each post names a real workplace problem, backs it with a fact or a familiar feeling, then shows how Lumina solves it. Post Monday, Wednesday and Friday at 08:30 (SAST). Images are 1080x1350.
+
+## 01-mental-wellness-fact (2026-10-12)
+
+Angle: Did you know | Problem: Mental wellness | Image: `Lumina-01-mental-wellness-fact.png`
+
+Did you know? Around 12 billion working days are lost every year to depression and anxiety.
+
+Most people will not tell their manager they are struggling. They just get quieter, slower and more tired, until one day they resign or go on sick leave.
+
+Lumina gives your team a private 30-second wellbeing check-in every week, short reset routines they can do at their desk, and a simple dashboard that shows managers where support is needed before it becomes a crisis.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+Source: World Health Organization, Guidelines on mental health at work (2022).
+
+#MentalHealthAtWork #Wellbeing #HR #SouthAfrica
+
+## 02-slow-team (2026-10-14)
+
+Angle: Problem | Problem: Low productivity | Image: `Lumina-02-slow-team.png`
+
+Your team is not lazy. They are disengaged.
+
+When work feels like the same thing every day, with no clear goal and nobody noticing the effort, people slow down. Deadlines slip and the energy in the office drops.
+
+Lumina brings the energy back with clear weekly goals, team challenges with points and a live leaderboard, and KPIs that we review with you every week. People work harder when they can see progress and feel part of a team.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#EmployeeEngagement #Productivity #Leadership #SouthAfrica
+
+## 03-nobody-finishes-training (2026-10-16)
+
+Angle: Problem | Problem: Training completion | Image: `Lumina-03-nobody-finishes-training.png`
+
+You paid for training. Nobody finished it.
+
+Long courses and full-day workshops compete with real work, and real work always wins. Most staff click through, forget it by Friday, or never start.
+
+Lumina breaks training into five-minute lessons that work on any phone. Each lesson ends with a quick quiz that earns points for the team, so people actually want to finish. You see completion rates every week.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#LearningAndDevelopment #Training #Upskilling #HR
+
+## 04-retail-training (2026-10-19)
+
+Angle: Problem | Problem: Retail training | Image: `Lumina-04-retail-training.png`
+
+How do you train staff who never sit at a desk?
+
+Retail teams work shifts, stand all day and cannot leave the floor for a classroom. So training gets skipped, and service is different in every store.
+
+With Lumina, staff learn on their phones in five minutes a day. Stores compete on a weekly leaderboard for prizes like vouchers and fuel cards, and head office gets one report showing progress in every branch.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#Retail #RetailTraining #CustomerService #SouthAfrica
+
+## 05-gamified-training (2026-10-21)
+
+Angle: How it works | Problem: Gamified training | Image: `Lumina-05-gamified-training.png`
+
+Gamified training sounds like a buzzword. Here is what it actually looks like at Lumina.
+
+1. Learn: staff complete a short lesson on the week's topic, such as induction, customer service, wellbeing or AI.
+2. Play: they test what they learned in quizzes and puzzles against their colleagues.
+3. Win: points go onto a live leaderboard, and the top people and teams win prizes every week.
+
+Learning stops being a chore and becomes something people talk about at lunch.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#Gamification #LearningAndDevelopment #EmployeeEngagement
+
+## 06-team-building (2026-10-23)
+
+Angle: Problem | Problem: Team building | Image: `Lumina-06-team-building.png`
+
+Fun on Friday. Forgotten by Monday.
+
+A team building day is great for one afternoon. Then everyone goes back to their desks and nothing really changes.
+
+Lumina turns team building into a 12-week journey: weekly team challenges, a kickoff event, live sessions and an awards day at the end. Teams keep working together, week after week, so the bond actually lasts.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#TeamBuilding #CompanyCulture #EmployeeEngagement
+
+## 07-replacement-cost (2026-10-26)
+
+Angle: Did you know | Problem: Resignations | Image: `Lumina-07-replacement-cost.png`
+
+Did you know? Replacing an employee can cost up to two times their annual salary.
+
+Recruitment fees, onboarding, lost productivity and the knowledge that walks out the door all add up. Many good people are leaving not only for other jobs, but to start their own businesses.
+
+Lumina helps you keep them by showing people a clear growth path, recognising and rewarding the ones who stay, and building skills that make them feel invested in.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+Source: Gallup (2019).
+
+#StaffRetention #HR #TalentManagement #SouthAfrica
+
+## 08-new-hires-leaving (2026-10-28)
+
+Angle: Problem | Problem: Onboarding | Image: `Lumina-08-new-hires-leaving.png`
+
+Are new staff leaving in their first few months?
+
+The first 90 days decide whether someone stays. A confusing first week, too much information at once and no real welcome make people wonder if they made the right choice.
+
+Lumina turns induction into a week-by-week journey on their phone, with short lessons, quizzes and games that make company rules and values stick, plus a welcome buddy and team activities from day one.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+#Onboarding #Induction #HR #NewHires
+
+## 09-ai-skills-gap (2026-10-30)
+
+Angle: Did you know | Problem: AI skills | Image: `Lumina-09-ai-skills-gap.png`
+
+Did you know? 39% of workers' core skills are expected to change by 2030.
+
+AI is a big reason why. Many employees feel anxious about it, and many companies have not yet given them a practical way to learn.
+
+Lumina offers short AI and new-skills courses from certified specialists, designed for everyday staff and not only tech teams. Staff practise what they learn through games, so the skills actually stick.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+Source: World Economic Forum, Future of Jobs Report (2025).
+
+#AI #FutureOfWork #Upskilling #SouthAfrica
+
+## 10-recognition-gap (2026-11-02)
+
+Angle: Did you know | Problem: Recognition | Image: `Lumina-10-recognition-gap.png`
+
+Did you know? People who receive great recognition are 45% less likely to have left their company after two years.
+
+Recognition does not need to be expensive. It needs to be regular, visible and sincere.
+
+Lumina builds recognition into every programme with weekly winners and shout-outs, certificates and rewards like vouchers and gadgets, and an awards day to celebrate your top performers.
+
+Want to see how this would work for your team? Send us a message or book a free intro call at lumina-advance.co.za.
+
+Source: Gallup and Workhuman (2023).
+
+#Recognition #StaffRetention #CompanyCulture
+
