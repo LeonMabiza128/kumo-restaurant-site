@@ -73,7 +73,8 @@ const POSTS = [
     helps: ['Weekly winners and shout-outs your team can see', 'Certificates and rewards like vouchers and gadgets', 'An awards day to celebrate your top performers'] }],
 ];
 
-(async () => {
+module.exports = { post, POSTS };
+if (require.main === module) (async () => {
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', proxy: { server: process.env.HTTPS_PROXY }, args: ['--ignore-certificate-errors', '--allow-file-access-from-files'] });
   for (const [name, cfg] of POSTS) {
     const f = path.join(__dirname, 'out', '_p3.html');
