@@ -38,6 +38,29 @@ POSTS = {
      cards=[dict(quad=[(682.5, 478.75), (1032.5, 528.75), (983.75, 938), (648, 891)], r=22)],
      covers=[(820, 541, 238, 72, 7.7), (808, 650, 240, 104, 7.7), (820, 726, 266, 26, 7.7), (806, 754, 244, 26, 7.7), (779, 781, 200, 26, 7.7), (790, 857, 244, 82, 7.7, (925, 895))],
      sparks=(992, 452, 1098, 588)),
+  'p06-team-building-monday': dict(src='src13.png', boxcol='navy', line_strip=8,
+     logo=(55, 40, 310, 145), url=(55, 1302, 360, 1356), cta=(660, 1288, 1080, 1362), arc_from=460,
+     cards=[], covers=[(670, 1045, 108, 152, 0, (622, 1080)), (819, 1047, 114, 152, 0, (762, 1000)), (975, 1057, 114, 164, 0, (915, 1000)), (888, 1183, 218, 36, 4, (780, 1186))],
+     sparks=None),
+  'p07-new-promotion': dict(src='src14.png', boxcol='yellow', line_strip=34,
+     logo=(55, 40, 310, 145), url=(55, 1305, 360, 1362), cta=(620, 1278, 1092, 1366), arc_from=478,
+     cards=[dict(quad=[(757, 748), (1081, 748), (1081, 1177), (757, 1177)], r=22)],
+     covers=[(920, 788, 262, 46, 0, (766, 788)), (910, 870, 296, 114, 0, (766, 870)), (910, 989, 296, 114, 0, (766, 989)), (910, 1118, 296, 114, 0, (766, 1118))],
+     sparks=None),
+  'p08-ai-is-here': dict(src='src15.png', boxcol='navy', line_strip=8,
+     logo=(55, 40, 310, 145), url=(60, 1322, 360, 1362), cta=(55, 1240, 570, 1328), arc_from=466,
+     cards=[dict(quad=[(761, 766), (1094, 766), (1094, 1212), (761, 1212)], r=26)],
+     covers=[(928, 814, 300, 50, 0, (770, 814)), (926, 899, 300, 112, 0, (770, 899)), (926, 1017, 300, 112, 0, (770, 1017)), (926, 1136, 300, 112, 0, (770, 1136))],
+     sparks=None),
+  'p09-good-work': dict(src='src16.png', boxcol='yellow', line_strip=8,
+     logo=(55, 40, 310, 145), url=(55, 1292, 360, 1350), cta=(715, 1265, 1095, 1342), arc_from=485,
+     cards=[], covers=[(760, 1003, 138, 28, -6.2, (830, 1000)), (752, 1030, 114, 32, -6.2, (830, 1030)), (757, 1055, 118, 30, -6.2, (830, 1030)), (752, 1079, 104, 32, -6.2, (830, 1030)), (866, 1050, 66, 92, -6.2, (830, 1030))],
+     sparks=None, badge=(870, 1176, 1094, 1234)),
+  'p10-new-job': dict(src='src17.png', boxcol='navy', line_strip=8,
+     logo=(55, 40, 310, 145), url=(55, 1305, 365, 1362), cta=(706, 1284, 1092, 1368), arc_from=466,
+     cards=[dict(quad=[(724, 783), (1080, 783), (1080, 1219), (724, 1219)], r=24)],
+     covers=[(890, 843, 284, 36, 0, (738, 843)), (903, 907, 326, 116, 0, (738, 907)), (903, 1018, 326, 120, 0, (738, 1018)), (903, 1137, 326, 124, 0, (738, 1137))],
+     sparks=None),
 }
 
 def dom(pix):
@@ -127,7 +150,7 @@ def run(name, cfg):
     # line 1: everything non-bg between logo and box, minus box colour
     a1 = np.zeros((H, W), np.uint8)
     yA, yB = logo_bottom + 14, by + 4
-    sel = nonbg(img[yA:yB, 30:1110], bg) & ~color_mask(img[yA:yB, 30:1110], cfg['boxcol'])
+    sel = nonbg(img[yA:yB, 30:1110], bg)
     m = np.zeros((H, W), bool); m[yA:yB, 30:1110] = sel
     lx0, ly0, lx1, ly1 = bbox_of(m, 12)
     al = np.zeros((H, W), np.float32)
@@ -170,6 +193,8 @@ def run(name, cfg):
 
     if cfg['sparks']:
         put('sparks', *cfg['sparks'], f=6)
+    if cfg.get('badge'):
+        put('badge', *cfg['badge'], f=6)
 
     # card overlays (kept in place) + covers
     if cfg['cards']:

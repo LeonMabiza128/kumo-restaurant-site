@@ -53,6 +53,7 @@ ${img('line1', '', 'animation:up .7s .45s both cubic-bezier(.2,.8,.2,1)')}
 ${img('box', '', 'animation:boxwipe .6s 1.05s both cubic-bezier(.65,0,.25,1)')}
 ${img('sub', '', 'animation:upS .6s 1.6s both cubic-bezier(.2,.8,.2,1)')}
 ${ly.sparks ? img('sparks', '', `transform-origin:30% 70%;animation:fade .3s ${tEnd - 0.4}s both, pulse .5s ${tEnd - 0.1}s 3 forwards`) : ''}
+${ly.badge ? img('badge', '', `animation:upS .5s ${covStart + n * covGap + 0.15}s both cubic-bezier(.2,.8,.2,1)`) : ''}
 ${img('url', '', `animation:fade .5s ${tEnd + 0.3}s both`)}
 <div class="a" style="position:absolute;left:${c.x}px;top:${c.y}px;width:${c.w}px;height:${c.h}px;animation:ctaIn .65s ${tEnd + 0.5}s both cubic-bezier(.2,.8,.2,1)">
   <img src="${U(name, 'cta.png')}" style="left:0;top:0;width:${c.w}px;height:${c.h}px">
@@ -83,7 +84,7 @@ async function render(b, name) {
 }
 
 (async () => {
-  const names = fs.readdirSync(HERE).filter((d) => /^p0\d-/.test(d) && fs.existsSync(path.join(HERE, d, 'layout.json')) && (!only.length || only.some((o) => d.startsWith(o)))).sort();
+  const names = fs.readdirSync(HERE).filter((d) => /^p\d\d-/.test(d) && fs.existsSync(path.join(HERE, d, 'layout.json')) && (!only.length || only.some((o) => d.startsWith(o)))).sort();
   const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
   const q = [...names];
   await Promise.all([0, 1, 2].map(async () => { while (q.length) await render(b, q.shift()); }));
